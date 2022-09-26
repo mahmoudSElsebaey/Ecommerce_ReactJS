@@ -1,0 +1,36 @@
+.not-found {
+  width: 100%;
+  height: 400px;
+  background-image: url("page-found_3482-1692.webp");
+  background-repeat: no-repeat;
+  background-size: 70% 90%;
+  background-position: center center;
+  margin: -20px auto 30px;
+  position: relative;
+  background-color: #fffbea;
+}
+.not-found a {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: orangered;
+  transition: all 0.4s;
+}
+
+.not-found a:hover,
+.alert-btn:hover {
+  background-color: rgb(255, 128, 0) !important
+}
+
+.alert-btn {
+  background-color: orangered;
+  border: none;
+  margin: 20px;
+}

@@ -1,0 +1,39 @@
+.form-style {
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 15px 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.form-style h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  background-color: orangered;
+  padding: 15px 0;
+  width: 120%;
+  margin: -20px 0px 20px -10%;
+}
+
+.form-style .form-control {
+  padding: 12px;
+}
+.form-style .form-control:focus {
+  border: 2px solid orangered;
+  box-shadow: none;
+}
+.form-style button {
+  background-color: orangered;
+  color: #fff;
+}
+
+.form-style button:hover {
+  color: #fff !important;
+  background-color: rgb(255, 122, 0) !important;
+}
