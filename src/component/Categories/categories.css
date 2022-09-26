@@ -1,5 +1,9 @@
 .content-categroies {
   margin: 50px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0; */
+  /* border: 1px solid rgb(0, 0, 0); */
 }
 .btns-card {
   /* width: 30%; */
@@ -8,10 +12,16 @@
   flex-direction: column;
   text-align-last: left;
   line-height: 2.5;
+  /* border-left: 1px solid rgba(0, 0, 0, 0.2); */
+  /* border: 1px solid rgb(28, 126, 218); */
 }
-.btns-card h3 {
-  font-weight: bolder;
+.cat-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  /* border: 1px solid rgb(4, 154, 64); */
 }
+
 .btns-card button {
   width: fit-content;
   background-color: transparent;
@@ -25,29 +35,28 @@
 .btns-card button::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background-color: orangered;
-  transition: 0.7s;
-  opacity: 0;
+  bottom: 40%;
+  left: -12px;
+  width: 7px;
+  height: 6px;
+  background-color: black;
+  transition:all 0.3s linear;
+  opacity: .6;
+  border-radius: 50%;
 }
 .btns-card button:hover::after {
-  width: 120%;
+  width: 140%;
+  height: 1px;
+  bottom: 0%;
+  background-color: orangered;
   opacity: 1;
 }
 .btns-card button:hover {
   color: orangered;
 }
-.cat-products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: stretch;
-}
 /* -------------------------------  Card ------------- */
 .card-parent {
-  width: 240px;
+  width: 260px;
   border-radius: 7px;
   height: fit-content;
   padding: 10px;
@@ -213,4 +222,49 @@
 }
 .card-parent .card-target-stars i:nth-last-child(1) {
   color: rgb(200, 196, 196);
+}
+
+@media (max-width: 990px) {
+  .btns-card {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    text-align-last: center;
+    border: none;
+  }
+  .btns-card button {
+    background-color: orangered;
+    width: 25vw;
+    text-align: center !important;
+    border-radius: 25px;
+    color: #fff;
+  }
+
+  .btns-card button:hover {
+    background-color: rgb(255, 132, 0);
+    color: #fff;
+  }
+  .btns-card button::after {
+width: 0;
+  }
+
+  .btns-card button:hover::after {
+    width: 0% !important;
+  }
+  .card-parent {
+    width: 230px;
+  }
+}
+@media (max-width: 400px) {
+  .btns-card {
+    gap: 5px;
+    grid-template-columns: auto auto;
+  }
+
+  .btns-card button {
+    width: 35vw;
+  }
+  .card-parent {
+    width: 180px;
+  }
 }

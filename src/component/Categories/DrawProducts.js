@@ -37,12 +37,6 @@ function DrawProducts({ item, handelCounter }) {
           <i className="fas fa-star"></i>
         </div>
       </div>
-      {/* <button
-        onClick={() => handelCounter(item)}
-        className="btn btn-outline-primary"
-      >
-        Add To Cart
-      </button> */}
     </div>
   );
 }

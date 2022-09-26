@@ -20,35 +20,24 @@
     -10px -10px 20px rgba(255, 255, 255, 0.757);
 }
 
-/* .nav-links {
-  padding: 10px 30px;
-  background-color: orangered;
-  width: 120%;
-  overflow: hidden;
-  border: 2px solid green;
-}
-.nav-links a {
-  color: #fff;
-  display: inline-block;
-  position: relative;
-}
-.nav-links a:hover{
-  color: rgba(246, 246, 246, 0.827) ;
-}
-.nav-links a::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5px;
-  background-color: rgb(15, 233, 7);
-  transition: all .5s linear;
+@media (max-width: 767px) {
+  .nav-links {
+    padding: 10px 30px;
+    color: rgb(255, 64, 0);
+    /* border: 2px solid green; */
+  }
+  .nav-links a {
+    display: inline-block;
+    position: relative;
+    color: orangered;
+  }
+  .nav-links a:hover {
+    color: rgb(255, 145, 0);
+  }
 
-} */
-.shoping-cart-icon .fas {
-  position: relative;
-  font-size: 20px;
+  .shoping-cart-icon .fas {
+    font-size: 25px;
+  }
 }
 
 .shoping-cart-icon .count {

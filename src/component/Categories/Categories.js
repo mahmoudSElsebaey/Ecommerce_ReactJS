@@ -16,8 +16,9 @@ function Categories({ handelCounter }) {
   return (
     <>
       <section className="container row content-categroies">
-        <div className="btns-card col-3">
-          <h3>Categories</h3>
+        {/* <h3>Categories</h3>  */}
+        <p className="title-section" style={{marginTop:'-20px'}}>Categories </p>
+        <div className="btns-card col-lg-3 col-md-12 col-sm-12">
           <button onClick={() => setData(xx)}>all</button>
           <button onClick={() => filterCats("mobile")}>mobiles</button>
           <button onClick={() => filterCats("laptop")}>laptops</button>
@@ -26,9 +27,11 @@ function Categories({ handelCounter }) {
           <button onClick={() => filterCats("keyboard")}>keyboards</button>
           <button onClick={() => filterCats("watch")}>smart watches</button>
           <button onClick={() => filterCats("handfree")}>handfree</button>
-          <button onClick={() => filterCats("headphone")}>headphones gaming</button>
+          <button onClick={() => filterCats("headphone")}>
+            headphones gaming
+          </button>
         </div>
-        <div className="cat-products col-9">
+        <div className="cat-products col-lg-9 col-md-12 col-sm-12">
           {data.map((item) => {
             return (
               <DrawProducts

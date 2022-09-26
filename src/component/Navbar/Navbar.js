@@ -37,8 +37,8 @@ function NavbarComp({ size }) {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                {/* <Nav className="nav-links"> */}
-                <Nav>
+                <Nav className="nav-links">
+                {/* <Nav> */}
                   <Nav.Link as={Link} to="/">
                     Home
                   </Nav.Link>
@@ -53,8 +53,8 @@ function NavbarComp({ size }) {
                   </Nav.Link>
                 </Nav>
 
-                {/* <Nav className="justify-content-end flex-grow-1 nav-links"> */}
-                <Nav className="justify-content-end flex-grow-1">
+                <Nav className="justify-content-end flex-grow-1 nav-links">
+                {/* <Nav className="justify-content-end flex-grow-1"> */}
                   <div className="shoping-cart-icon">
                     <span>
                       <Nav.Link as={Link} to="/shopingCart">
