@@ -1,13 +1,13 @@
 import React from "react";
+import "./TopSelling.css";
 import { FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./TopSelling.css";
+import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
-import CardTopSelling from "./CardTopSelling";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination, Navigation } from "swiper";
+import CardTopSelling from "./CardTopSelling";
 import p5 from "./TopSellingImages/p5.jpg";
 import l1 from "./TopSellingImages/l1.jpg";
 import tv3 from "./TopSellingImages/tv3.jpg";

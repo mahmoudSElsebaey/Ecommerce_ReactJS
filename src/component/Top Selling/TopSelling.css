@@ -38,10 +38,11 @@
 }
 .card-body div:nth-child(3) span:nth-child(2) {
   font-size: 15px;
-  background-color: #ffce73;
+  background-color: #ffce736a;
   color: orangered;
   padding: 2px 4px;
   margin-left: 8px;
+  font-weight: bold;
 }
 
 .card-target-stars {
@@ -91,23 +92,36 @@
   font-weight: bolder;
   /* border: 1px solid red; */
 }
-
+@media (max-width: 420px) {
+  .card-style {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .card-style .card-image {
+    width: 80%;
+    margin: auto;
+  }
+  .card-body div:nth-child(1) {
+    font-size: 16px;
+  }
+  .card-body div:nth-child(2) {
+    font-size: 13px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px !important;
+    height: 80px !important;
+  }
+}
 
 /* --------------- sepcial part to CardNewProducts file only --------- */
 
-.card-newProduct{
+.card-newProduct {
   position: relative;
   border: 1px solid rgba(255, 68, 0, 0.6);
 }
 
-/* .card-newProduct:hover{
-
-}
-.card-newProduct:hover .product-new{
-  display: block;
-} */
-
-.card-newProduct .product-new{
+.card-newProduct .product-new {
   position: absolute;
   right: 0;
   padding: 3px 10px;

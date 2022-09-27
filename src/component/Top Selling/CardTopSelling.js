@@ -5,14 +5,14 @@ const CardTopSelling = ({ imgSrc, title, price }) => {
   return (
     <>
       <Card className=" card-style overflow-hidden h-100">
-        <div className="card-image  overflow-hidden rounded bg-light p-0">
+        <div className="card-image overflow-hidden rounded bg-light p-0">
           <Card.Img variant="top" src={imgSrc} />
         </div>
         <Card.Body className="card-body">
           <Card.Title>{title}</Card.Title>
           <Card.Title>EGP {price}.00</Card.Title>
           <Card.Title>
-            <span>EGP {parseInt(price) +(price*.12)}.00</span>
+            <span>EGP {parseInt(price) + price * 0.12}.00</span>
             <span>-12%</span>
           </Card.Title>
           <div className="card-target-stars">

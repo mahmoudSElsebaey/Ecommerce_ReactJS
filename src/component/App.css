@@ -80,8 +80,12 @@ button {
   color: orange;
   letter-spacing: 6px;
 }
-@media (max-width: 530px) {
-  *,
+@media (max-width: 420px) {
+  .title-section{
+    font-size: 25px;
+  }
+
+  /* *,
   body,
   a,
   p,
@@ -97,6 +101,6 @@ button {
   input,
   div,
   i {
-    font-size: small;
-  }
+    font-size: small !important;
+  } */
 }

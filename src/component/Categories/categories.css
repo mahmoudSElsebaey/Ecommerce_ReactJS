@@ -231,13 +231,17 @@
     grid-template-columns: auto auto auto;
     text-align-last: center;
     border: none;
+    margin: 10px auto 40px;
   }
   .btns-card button {
     background-color: orangered;
     width: 25vw;
+    padding: 3px 0;
     text-align: center !important;
     border-radius: 25px;
     color: #fff;
+    font-size: 14px;
+    font-weight: bold;
   }
 
   .btns-card button:hover {
@@ -255,14 +259,19 @@ width: 0;
     width: 230px;
   }
 }
-@media (max-width: 400px) {
+
+/* mobile */
+@media (max-width: 415px) {
   .btns-card {
     gap: 5px;
     grid-template-columns: auto auto;
+    line-height: 1.8;
   }
 
   .btns-card button {
     width: 35vw;
+    font-size: small;
+    font-weight: normal;
   }
   .card-parent {
     width: 180px;

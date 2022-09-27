@@ -2,7 +2,7 @@
   color: orangered;
   font-weight: bold;
   font-size: 35px;
-  text-shadow: 1px 1px 2px rgb(126, 194, 24);
+  /* text-shadow: 1px 1px 2px rgb(126, 194, 24); */
   text-transform: capitalize;
   margin: 50px auto 30px;
   text-decoration: underline;

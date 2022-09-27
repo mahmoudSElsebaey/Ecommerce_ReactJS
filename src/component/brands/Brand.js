@@ -24,11 +24,11 @@ const Brand = () => {
           loop={true}
           breakpoints={{
             0: {
-              slidesPerView: 1,
-              spaceBetween: 10,
+              slidesPerView: 2,
+              spaceBetween: 0,
             },
             480: {
-              slidesPerView: 1,
+              slidesPerView: 2,
               spaceBetween: 10,
             },
             768: {
@@ -41,7 +41,7 @@ const Brand = () => {
             },
           }}
         >
-          <SwiperSlide>
+          <SwiperSlide className="col-sm-12">
             <img src={brand1} alt="brand-1" />
           </SwiperSlide>
           <SwiperSlide>
