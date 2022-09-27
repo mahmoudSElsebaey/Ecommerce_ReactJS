@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce_ReactJS/static/css/main.ccd68d70.css",
-    "main.js": "/Ecommerce_ReactJS/static/js/main.ccf8f365.js",
+    "main.css": "/Ecommerce_ReactJS/static/css/main.4c0feac3.css",
+    "main.js": "/Ecommerce_ReactJS/static/js/main.4566b3bf.js",
     "static/media/Combo-offer.gif": "/Ecommerce_ReactJS/static/media/Combo-offer.34a0724a7175d6f4cd83.gif",
     "static/media/Ambassador-pana.png": "/Ecommerce_ReactJS/static/media/Ambassador-pana.0b71a2cd580a1e7b8f80.png",
     "static/media/fa-solid-900.ttf": "/Ecommerce_ReactJS/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
@@ -47,11 +47,11 @@
     "static/media/p4.jpg": "/Ecommerce_ReactJS/static/media/p4.e5142ff4476c387f9b8a.jpg",
     "static/media/fa-v4compatibility.woff2": "/Ecommerce_ReactJS/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/Ecommerce_ReactJS/index.html",
-    "main.ccd68d70.css.map": "/Ecommerce_ReactJS/static/css/main.ccd68d70.css.map",
-    "main.ccf8f365.js.map": "/Ecommerce_ReactJS/static/js/main.ccf8f365.js.map"
+    "main.4c0feac3.css.map": "/Ecommerce_ReactJS/static/css/main.4c0feac3.css.map",
+    "main.4566b3bf.js.map": "/Ecommerce_ReactJS/static/js/main.4566b3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccd68d70.css",
-    "static/js/main.ccf8f365.js"
+    "static/css/main.4c0feac3.css",
+    "static/js/main.4566b3bf.js"
   ]
 }
