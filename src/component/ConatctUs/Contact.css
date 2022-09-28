@@ -5,6 +5,7 @@
   /* border: 1px solid red; */
   margin: auto;
 }
+
 .contact-parent {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
@@ -29,20 +30,23 @@
   border: 1px solid orangered;
 }
 
-.contact-parent button{
+.contact-parent button {
   width: 200px;
   padding: 10px 0;
   background-color: orangered;
   color: #fff;
 }
-.contact-parent button:hover{
+
+.contact-parent button:hover {
   color: #fff !important;
   background-color: rgb(255, 111, 0) !important;
 }
+
 .contact-parent-right {
   margin: 20px 0;
   margin-right: auto;
 }
+
 .contact-info,
 .contact-more-info {
   width: auto;
@@ -70,13 +74,15 @@
   font-size: 15px;
 }
 
-.contact-info i{
+.contact-info i {
   color: orangered;
 }
-.contact-info .contact-phone{
+
+.contact-info .contact-phone {
   display: flex;
   flex-direction: column;
 }
+
 .contact-info .contact-phone a:nth-child(1) {
   margin-bottom: 10px;
 }
@@ -101,7 +107,7 @@
   font-size: 15px;
 }
 
-.contact-more-info button:hover{
+.contact-more-info button:hover {
   color: #fff !important;
   background-color: rgb(255, 111, 0) !important;
 

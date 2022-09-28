@@ -45,6 +45,7 @@
   padding: 10px 25px;
   transition: 0.5s;
 }
+
 .slid-caption a:hover {
   color: #fff !important;
   background-color: rgb(255, 111, 0) !important;
@@ -57,12 +58,14 @@
     transform: rotate(-80deg);
     transform-origin: top left;
   }
+
   100% {
     opacity: 1;
     transform: rotate(0deg);
     transform-origin: top left;
   }
 }
+
 @keyframes slidTitleInfo {
   0% {
     opacity: 0;
@@ -71,6 +74,7 @@
     margin-right: -500px;
     transform: skew(-60deg);
   }
+
   100% {
     opacity: 1;
     /* transform: rotate(0deg);
@@ -79,44 +83,54 @@
     transform: skew(0deg);
   }
 }
+
 @keyframes slidBtn {
   0% {
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     transform: scale(1);
     opacity: 1;
   }
 }
+
 /* ------------ Home responsive */
 /* ipad */
 @media (max-width: 815px) {
   .home-style {
     height: 50vh;
   }
+
   .slide-img {
     height: 50vh;
   }
+
   .slid-caption h3 {
     font-size: 3rem;
   }
+
   .slid-caption p {
     font-size: 0.9rem;
   }
+
   .slid-caption a {
     font-size: 1.2rem;
   }
 }
+
 /* mobile */
 @media (max-width: 415px) {
   .slid-caption h3 {
     font-size: 2.2rem;
     letter-spacing: 2px;
   }
+
   .slid-caption p {
     font-size: 0.8rem;
   }
+
   .slid-caption a {
     font-size: 1.1rem;
   }
@@ -134,28 +148,34 @@
   border-radius: 10px 10px 0 0;
   margin: 30px auto 0;
 }
+
 .title-top-selling a,
 .title-new-products a,
 .title-telvesion-off p {
   color: #fff;
   transition: all 0.5s;
 }
+
 .title-top-selling i,
 .title-new-products i {
   font-size: 20px;
   animation: topSellingIconMoving 1s infinite;
 }
+
 @keyframes topSellingIconMoving {
   0% {
     margin-left: 15px;
   }
+
   50% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: 15px;
   }
 }
+
 .telvesion-off {
   overflow: hidden;
   display: flex;
@@ -169,15 +189,32 @@
 }
 
 .telvesion-off div img {
+  width: 100%;
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
 .telvesion-off div img:hover {
   transform: scale(1.09);
 }
-@media (max-width: 800px) {
+
+@media (max-width: 810px) {
   .telvesion-off img {
     width: 100%;
     margin: 5px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .title-top-selling,
+  .title-new-products,
+  .title-telvesion-off {
+    font-size: 20px;
+  }
+
+  .title-top-selling i,
+  .title-new-products i {
+    font-size: 17px;
   }
 }

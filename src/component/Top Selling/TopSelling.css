@@ -3,6 +3,7 @@
   /* height: auto; */
   margin: 8px auto 30px;
 }
+
 .card-style {
   border: none;
 }
@@ -13,6 +14,7 @@
 .card-body {
   text-align: left;
 }
+
 .card-body div:nth-child(1) {
   font-weight: bolder;
   text-transform: capitalize;
@@ -27,15 +29,18 @@
   font-size: 15px;
   /* border: 1px solid green; */
 }
+
 .card-body div:nth-child(3) {
   margin-top: -10px;
 }
+
 .card-body div:nth-child(3) span:nth-child(1) {
   font-size: 13px;
   width: 100%;
   color: rgb(97, 91, 91);
   text-decoration: line-through;
 }
+
 .card-body div:nth-child(3) span:nth-child(2) {
   font-size: 15px;
   background-color: #ffce736a;
@@ -72,15 +77,18 @@
   background-color: rgba(0, 0, 0, 0.08);
   /* border: 1px solid red; */
 }
+
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   background-color: rgba(0, 0, 0, 0.213);
   color: rgba(0, 0, 0, 0.722) !important;
 }
+
 .swiper-button-next {
   right: 0px !important;
   border-radius: 13px 0 0 13px;
 }
+
 .swiper-button-prev {
   left: 0px !important;
   border-radius: 0 13px 13px 0;
@@ -92,21 +100,26 @@
   font-weight: bolder;
   /* border: 1px solid red; */
 }
+
 @media (max-width: 420px) {
   .card-style {
     width: 60%;
     margin: 20px auto;
   }
+
   .card-style .card-image {
     width: 80%;
     margin: auto;
   }
+
   .card-body div:nth-child(1) {
     font-size: 16px;
   }
+
   .card-body div:nth-child(2) {
     font-size: 13px;
   }
+
   .swiper-button-next,
   .swiper-button-prev {
     width: 40px !important;

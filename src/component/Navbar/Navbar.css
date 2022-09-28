@@ -26,11 +26,13 @@
     color: rgb(255, 64, 0);
     /* border: 2px solid green; */
   }
+
   .nav-links a {
     display: inline-block;
     position: relative;
     color: orangered;
   }
+
   .nav-links a:hover {
     color: rgb(255, 145, 0);
   }
@@ -59,6 +61,7 @@
   color: #fff;
   position: relative;
 }
+
 /* 
 .navbarStyle a.active {
   color: yellowgreen !important;

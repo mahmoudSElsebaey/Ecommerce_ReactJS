@@ -13,6 +13,7 @@
 
 .phone-conatct {
   width: 300px;
+  min-width: 200px;
   text-align: center;
 }
 
@@ -32,6 +33,7 @@
   width: 150px;
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid red; */
 }
 
 .social-conatct-icons i {
@@ -67,14 +69,38 @@
 .social-conatct-icons i:nth-child(6) {
   animation: icon-animate 0.5s 1 4.5s;
 }
+
 @keyframes icon-animate {
   0% {
     color: #000;
     transform: scale(2.5);
     opacity: 0;
   }
+
   100% {
     color: rgb(249, 249, 249);
     transform: scale(1);
+  }
+}
+
+@media (max-width: 420px) {
+  .phone-conatct {
+    width: 200px;
+    margin-left: -15px;
+  }
+
+  .phone-conatct span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+    word-spacing: 3px;
+  }
+
+  .social-conatct-icons {
+    width: 110px;
+  }
+
+  .social-conatct-icons i {
+    font-size: 13px;
   }
 }

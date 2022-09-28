@@ -18,6 +18,7 @@
     width: 80%;
   }
 }
+
 @media (max-width: 415px) {
   .brands img {
     width: 80%;
