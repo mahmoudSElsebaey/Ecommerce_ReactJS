@@ -11,16 +11,13 @@ function Contact() {
         <p className="title-section">Contact Us</p>
         <div className="contact-parent col-lg-8 col-md-12 ">
           <Form>
-            <div className="contact-fullname">
-              <Form.Group className="mb-3 w-50 m-1" controlId="formBasicFname">
-                <Form.Label>First Name</Form.Label>
-                <Form.Control type="text" className="form-control" />
-              </Form.Group>
-              <Form.Group className="mb-3 col-6 m-1" controlId="formBasicLname">
-                <Form.Label>Last Name</Form.Label>
-                <Form.Control type="text" className="form-control" />
-              </Form.Group>
-            </div>
+            <Form.Group
+              className="mb-3"
+              controlId="formBasicFname"
+            >
+              <Form.Label> Username</Form.Label>
+              <Form.Control type="text" className="form-control" />
+            </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
@@ -32,7 +29,10 @@ function Contact() {
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicTextarea">
               <Form.Label>Message</Form.Label>
-              <FloatingLabel controlId="floatingTextarea2" label="Leave a message here">
+              <FloatingLabel
+                controlId="floatingTextarea2"
+                label="Leave a message here"
+              >
                 <Form.Control
                   as="textarea"
                   placeholder="Leave a comment here"

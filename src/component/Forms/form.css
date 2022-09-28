@@ -24,12 +24,10 @@
 .form-style .form-control {
   padding: 12px;
 }
-
 .form-style .form-control:focus {
   border: 2px solid orangered;
   box-shadow: none;
 }
-
 .form-style button {
   background-color: orangered;
   color: #fff;

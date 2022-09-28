@@ -1,20 +1,19 @@
 .about-sec {
   margin: 50px auto;
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
   /* border: 1px solid red; */
 }
 
 .about-website,
 .about-howUse {
-  padding: 20px 50px;
-  margin: 10px 0;
   /* border: 1px solid red; */
   /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+  padding: 20px 50px;
+  margin: 10px 0;
 }
-
 .about-website h3,
 .about-howUse h3 {
   font-size: 20px;
@@ -26,7 +25,6 @@
   text-decoration: underline;
   letter-spacing: 3px;
 }
-
 .about-website p {
   font-size: 15px;
   line-height: 2;
@@ -90,7 +88,6 @@
   color: #fff !important;
   background-color: rgb(255, 122, 0) !important;
 }
-
 .about-img {
   height: auto;
 }

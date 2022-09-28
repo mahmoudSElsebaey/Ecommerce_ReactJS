@@ -76,14 +76,12 @@ button {
   height: 3px;
   background-color: orange;
 }
-
 .title-section:hover {
   color: orange;
   letter-spacing: 6px;
 }
-
 @media (max-width: 420px) {
-  .title-section {
+  .title-section{
     font-size: 25px;
   }
 
