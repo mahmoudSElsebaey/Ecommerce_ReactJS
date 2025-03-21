@@ -2,7 +2,9 @@ import React from "react";
 
 function DrawProducts({ item, handelCounter }) {
   const { id, name, price, image } = item;
-
+  const handleName = (name) => {
+    console.log(name);
+  };
   return (
     <div className="card-parent" key={id}>
       <div className="card-img">
@@ -26,7 +28,7 @@ function DrawProducts({ item, handelCounter }) {
         </div>
         <div className="card-price">
           <p>EGP {price}.00</p>
-          <span>EGP {price+(price*.12)}.00</span>
+          <span>EGP {price + price * 0.12}.00</span>
           <span>-12%</span>
         </div>
         <div className="card-target-stars">

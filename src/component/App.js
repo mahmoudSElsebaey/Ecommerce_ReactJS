@@ -14,7 +14,6 @@ import HeaderTitle from "./HeaderTitle/HeaderTitle";
 import ShoppingCart from "./Categories/Shopping Cart/ShoppingCart";
 
 function App() {
-  // const [show, setShow] = useState(true);
   const [counter, setCounter] = useState([]);
 
   const handelCounter = (item) => {
@@ -34,6 +33,7 @@ function App() {
       <NavbarComp size={counter.length} />
       {/* <main className="container"> */}
         <Routes>
+          <Route path="/Ecommerce_ReactJS" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
