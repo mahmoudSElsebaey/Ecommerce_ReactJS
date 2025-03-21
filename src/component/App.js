@@ -34,6 +34,7 @@ function App() {
       <NavbarComp size={counter.length} />
       {/* <main className="container"> */}
         <Routes>
+          <Route path="/Ecommerce_ReactJS" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
