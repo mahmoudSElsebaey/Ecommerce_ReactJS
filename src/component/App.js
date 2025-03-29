@@ -5,7 +5,7 @@ import About from "./About/About";
 import Contact from "./ConatctUs/Contact";
 import Footer from "./Footer/Footer";
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "./NotFound/NotFound";
 import Categories from "./Categories/Categories";
 import Login from "./Forms/Login";
@@ -33,7 +33,7 @@ function App() {
       <NavbarComp size={counter.length} />
       {/* <main className="container"> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/Ecommerce_ReactJS" element={<Home />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
